@@ -655,6 +655,9 @@ span{
 }
 
 @media (max-width: 280px){
+    .home-content h1{
+        font-size: 1.8rem;
+    }
     .home{
         padding: 7rem 2rem 3rem 2rem;
     }
