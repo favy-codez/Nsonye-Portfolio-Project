@@ -589,7 +589,46 @@ span{
 }
 
 @media (max-width: 414px){
-
+    .header{
+        padding: 1rem 2rem;
+    }
+    .home{
+        padding: 8rem 2rem 3rem 2rem;
+    }
+    .about{
+        padding: 3rem 2rem;
+    }
+    .about-content p{
+        font-size: 1.6rem;
+    }
+    .portfolio-container{
+        grid-template-columns: auto;
+    }
+    .portfolio-box{
+        width: 350px;
+    }
+    .footer{
+        padding: 1rem 2rem;
+    }
+    .footer-text p{
+        font-size: 12px;
+    }
+    .about-content h2, .about-content h3,
+    .about-content p{
+        text-align: center;
+    }
+    .btn{
+        display: block;
+        margin: 1rem auto;
+        width: 180px;
+        text-align: center;
+    }
+    .portfolio h2{
+        font-size: 3.5rem;
+    }
+    .services-box i{
+        font-size: 5rem;
+    }
 }
 
 @media (max-width: 1200px){
