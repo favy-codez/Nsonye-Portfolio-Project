@@ -656,6 +656,13 @@ span{
 }
 
 @media (max-width: 280px){
+    .portfolio-layer h4{
+        font-size: 2rem;
+    }
+    .portfolio-layer a{
+        width: 3rem;
+        height: 3rem;
+    }
     .home-content h1{
         font-size: 1.8rem;
     }
