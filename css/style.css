@@ -149,7 +149,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 4rem;
     background: var(--second-bg-color);
 }
 
@@ -229,9 +229,10 @@ span{
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat (3, 1fr); 
+    grid-template-columns: auto auto auto;
     gap: 2.5rem;
     align-items: center;
+    justify-content: center;
 }
 
 .portfolio-container .portfolio-box{
@@ -240,6 +241,10 @@ span{
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+}
+
+.portfolio-box{
+    width: 400px;
 }
 
 .portfolio-box img{
