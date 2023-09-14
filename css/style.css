@@ -416,15 +416,21 @@ span{
     }
 }
 
-@media (max-width: 991px){
-    .header{
-        padding: 2rem 3%;
+@media (max-width: 1024px){
+    .home-content h3{
+        font-size: 2.2rem;
     }
-    section{
-        padding: 10rem 3% 2rem;
+    #text{
+        font-size: 2.2rem;
     }
-    .footer{
-        padding: 2rem 3%;
+    .portfolio-container{
+        grid-template-columns: auto auto;
+    }
+    .portfolio-container{
+        gap: 1.4rem;
+    }
+    .portfolio-box{
+        width: 380px;
     }
 }
 
